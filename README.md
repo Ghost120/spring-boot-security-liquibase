@@ -11,5 +11,5 @@
 ### Проверяем работоспрособность
     - Ссылка на актуатор  http://localhost:8080/actuator
     - Добавленная информация о приложении http://localhost:8080/actuator/info
-    - GET запрос возращяющий все книги http://localhost:8080/api/books
+    - GET запрос возращающий все книги http://localhost:8080/api/books
 
