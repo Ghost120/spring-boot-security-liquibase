@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>Example app</name>
-	<description>Demo project for Spring Boot +Liquibase + PostgreSQL + Actuator + REST</description>
+	<description>Demo project for Spring Boot + Security + Liquibase + PostgreSQL + Actuator + REST</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -54,7 +54,19 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.thymeleaf.extras</groupId>
+			<artifactId>thymeleaf-extras-springsecurity4</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
